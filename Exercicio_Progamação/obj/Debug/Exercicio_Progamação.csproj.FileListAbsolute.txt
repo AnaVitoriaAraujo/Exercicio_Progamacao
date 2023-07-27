@@ -1,0 +1,8 @@
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\obj\Debug\Exercicio_Progamação.csproj.AssemblyReference.cache
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\obj\Debug\Exercicio_Progamação.csproj.SuggestedBindingRedirects.cache
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\obj\Debug\Exercicio_Progamação.csproj.CoreCompileInputs.cache
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\bin\Debug\Exercicio_Progamação.exe.config
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\bin\Debug\Exercicio_Progamação.exe
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\bin\Debug\Exercicio_Progamação.pdb
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\obj\Debug\Exercicio_Progamação.exe
+C:\Users\ana.vasouza2\source\repos\Exercicio_Progamação\Exercicio_Progamação\obj\Debug\Exercicio_Progamação.pdb
