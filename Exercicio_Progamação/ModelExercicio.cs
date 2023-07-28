@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
@@ -84,7 +85,69 @@ namespace Exercicio_Progamação
             return som;
             
         }
+
+        public string Sexto(double n4)
+        {
+
+            string resultado = "";
+            for (int i = 0; i <= 10; i++) // o i ++ e a cada volta dor for ele conta mais um
+            {
+                resultado += "\n" + n4 + "*" + i + "=" + (n4 * i);
+            }// += pra ficar na mesma variavel
+
+            return resultado;
+        }
+
+        public string Setimo(int n5, int n6)
+        {
+            string resultado = "";
+
+            for (int i = n5; i <= n6; i++)
+            {
+                resultado += "\n" + (n5 + (1 * i - n5));
+            }//Fim do método for
+
+            return resultado;
+        }
+
+        public int Oitavo(int um, int dois, int tres, int quatro, int cinco, int seis, int sete, int oito,int nove, int dez)
+        {
+            return um + dois + tres + quatro + cinco + seis + sete + oito + nove + dez;
+        }
+
+        public string Nono()
+        {
+            string resultado = "";
+            for (int i = 101; i <= 199; i += 2)
+            {
+                Console.WriteLine(i);
+
+            }
+            return resultado;
+
+        }
+
+        public int Dez()
+        {
+            int soma = 0;
+            
+            do
+            {
+                Console.WriteLine("Informe um numero");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                if (num1 == 0)
+                    break;
+
+                soma += num1;
+            } while (num1 == 0);
+            return soma;
+        }
+
+       
         
+                         
+
+
     }//fim da classe
 }//fim do projeto
 

@@ -17,16 +17,20 @@ namespace Exercicio_Progamação
 
         }//fim do control
 
-        public int Menu()
+        public double Menu()
         {
             Console.WriteLine("Escolha a opcao que deseja" +
                 "\n0.Clique 0 para sair"+
                 "\n1.Deseja obter o dobro e o triplo do numero digitado"+
                 "\n2.Deseja calcular 30% do seu salario"+
                 "\n3.Deseja ver se o  umero é par ou impar negativo ou positivo"+
-                "\n4.Deseja ver os numeros inteiors de 1 a 100"
-                );
-            int opcao = Convert.ToInt32(Console.ReadLine());
+                "\n4.Deseja ver os numeros inteiors de 1 a 100"+
+                "\n5.Deseja ver a tabuada de 1 ate n"+
+                "\n6.Deseja ver os numeros que digitar"+
+                "\n7.Deseja ver os numeros impares de 100 a 200"+
+                "\n8.Deseja ver 10 numeros que digitar somados"+
+                "\n9.Deseja o exercicio 9");
+            double opcao = Convert.ToInt32(Console.ReadLine());
             return opcao;
         }
 
@@ -43,7 +47,7 @@ namespace Exercicio_Progamação
 
         public void Operacao()
         {
-            int opcao = 0;
+            double opcao = 0;
             do
             {
                 opcao = Menu();
@@ -74,8 +78,74 @@ namespace Exercicio_Progamação
                         break;
 
                     case 4:
-                        Console.WriteLine();
+                        Console.WriteLine(this.ModelExercicio.Quinto());
                         break;
+
+                    case 5:
+                        Console.WriteLine("Informe um numero: ");
+                        double n4 = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine(this.ModelExercicio.Sexto(n4));
+                        break;
+
+                    case 6:
+                        Console.WriteLine("Informe um numero");
+                        int n5 = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe um outro numero");
+                        int n6 = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine(this.ModelExercicio.Setimo(n5, n6));
+
+                        break;
+
+
+                    case 7:
+                        Console.WriteLine("O reseultado é" + this.ModelExercicio.Nono());
+
+                        break;
+
+                    case 8:
+                        Console.WriteLine("Informe o primeiro numero");
+                        int um = Convert.ToInt32(Console.ReadLine());
+                        
+                        Console.WriteLine("Informe o primeiro numero");
+                        int dois = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int tres = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int quatro = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int quinto = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int seis = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int sete = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int oito = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int nove = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine("Informe o primeiro numero");
+                        int dez = Convert.ToInt32(Console.ReadLine());
+
+                        Console.WriteLine(this.ModelExercicio.Oitavo(um, dois, tres, quatro, quinto, seis, sete, oito, nove, dez));
+
+                        break;
+
+                        case 9:
+
+                        Console.WriteLine(this.ModelExercicio.Dez());
+
+                        break;
+
+                        
                 }
 
             }while(opcao != 0);
